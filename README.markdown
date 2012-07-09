@@ -1,17 +1,3 @@
-# PSINFO
-
-
-## Intro
-
-This program extracts information about a process from within the processes
-memory. It retrieves information that is either difficult or impossible to
-retrieve. Yes you can use GDB to get all this information (but thats no fun).
-
-
-## Types of Information
-
-### Environment Variables
-
 Up until recently I thought that the information in /proc/$$/environ was the
 current environment for that process. However it is actually the environment of
 the process at execution time. The environment is initially stored in the
